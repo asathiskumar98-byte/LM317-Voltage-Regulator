@@ -42,8 +42,7 @@ The **bridge rectifier (BR1)** converts AC input into DC, filtered by **C1** and
 The **LM317T (U1)** regulates the voltage, with **R1** and **VR1** forming an adjustable divider to set the output voltage.  
 **C3**, **C4**, and **C5** provide additional stability and reduce output ripple.  
 
-Output voltage can be varied using the potentiometer **VR1**:
-\[
+Output voltage can be varied using the potentiometer **VR1**:[\
 V_{OUT} = 1.25 \times \left(1 + \frac{R1}{VR1}\right)
 \]
 
